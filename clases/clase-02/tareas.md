@@ -26,7 +26,9 @@ Ejemplo: Last year I went to... I ate... I visited... I enjoyed... -->
 ---
 
 ### Preguntas que practiqué
-
+​Past: Where did you go?
+​Present: Do you like traveling?
+​Present Perfect: Have you ever been to Paris?
 <!-- Escribí al menos 5 preguntas usando Did / Have / Will
 Ejemplo:
 - Did you visit the museum?
