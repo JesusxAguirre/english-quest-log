@@ -2,7 +2,7 @@
 
 Mi ninja path for mastering English.
 
-Este repositorio organiza mi aprendizaje de inglés en carpetas temáticas, con notas y tareas de cada clase en formato Markdown.
+Este repositorio organiza mi aprendizaje de inglés clase a clase — notas, tareas y recursos en formato Markdown, versionados con Git.
 
 ---
 
@@ -10,26 +10,48 @@ Este repositorio organiza mi aprendizaje de inglés en carpetas temáticas, con 
 
 ```
 english-quest-log/
-├── clases/             → Notas y tareas de cada clase
-│   ├── clase-01/
+├── clases/
+│   ├── clase-01/               → Past Simple
+│   │   ├── notas.md            → Apuntes de la clase
+│   │   ├── tareas.md           → Homework (completar desde GitHub)
+│   │   └── clase1.png          → Material visual
+│   ├── clase-02/               → Tenses Overview + Present Perfect
 │   │   ├── notas.md
-│   │   └── tareas.md
-│   └── ...
-├── vocabulario/        → Listas de vocabulario por tema
-├── gramatica/          → Apuntes de gramática
-└── progreso.md         → Seguimiento del progreso general
+│   │   ├── tareas.md
+│   │   ├── clase2past.png
+│   │   └── clase2th.png
+│   └── clase-NN/               → Próximas clases...
+├── gramatica/                  → Apuntes de gramática generales
+├── vocabulario/                → Listas de vocabulario por tema
+├── progreso.md                 → Seguimiento del progreso general
+├── CLAUDE.md                   → Reglas del agente de IA
+└── README.md                   → Este archivo
 ```
+
+---
+
+## 📖 Clases
+
+| # | Tema | Notas | Tareas |
+|---|------|-------|--------|
+| 01 | Past Simple | [notas](./clases/clase-01/notas.md) | [tareas](./clases/clase-01/tareas.md) |
+| 02 | Tenses Overview + Present Perfect | [notas](./clases/clase-02/notas.md) | [tareas](./clases/clase-02/tareas.md) |
 
 ---
 
 ## 🚀 Cómo usar este repositorio
 
-1. Después de cada clase, abre la carpeta correspondiente en `clases/`.
-2. Escribe tus apuntes en `notas.md`.
-3. Registra las tareas asignadas en `tareas.md`.
-4. Agrega palabras nuevas en la carpeta `vocabulario/`.
-5. Anota reglas gramaticales importantes en `gramatica/`.
-6. Actualiza tu avance en `progreso.md`.
+### El agente (Claude) se encarga de:
+1. Crear la carpeta de cada clase nueva: `clases/clase-NN/`
+2. Escribir `notas.md` con todo el contenido de la clase
+3. Preparar `tareas.md` con el homework asignado y estructura lista para completar
+4. Mover imágenes a la carpeta correcta
+5. Actualizar `progreso.md` y este README
+
+### Vos te encargás de:
+1. Completar tus respuestas en `tareas.md` directamente desde **GitHub** (botón ✏️ Edit)
+2. Marcar los checkboxes cuando completes las tareas: `- [x]`
+3. Agregar reflexiones en `progreso.md`
 
 ---
 

@@ -1,24 +1,36 @@
 # ✅ Tareas — Clase 01
 
-**Fecha de asignación:** <!-- ej. 2026-02-27 -->  
-**Fecha de entrega:** <!-- ej. 2026-03-06 -->
+**Fecha de asignación:** 2026-01-29
+**Fecha de entrega:** pendiente
 
 ---
 
 ## 📋 Tareas asignadas
 
-- [ ] <!-- Tarea 1 -->
-- [ ] <!-- Tarea 2 -->
-- [ ] <!-- Tarea 3 -->
+- [ ] Revisar los **verbos auxiliares** para: Past, Present, Present Perfect
+- [ ] Practicar **hacer preguntas** (Did you...? / Have you...? / Will you...?)
+- [ ] Practicar los **verbos irregulares** en pasado
 
 ---
 
-## 📝 Respuestas / Ejercicios resueltos
+## 📝 Mis respuestas
 
-<!-- Escribe aquí tus respuestas o el desarrollo de los ejercicios -->
+<!-- ✍️ Completá esto desde GitHub cuando tengas tiempo -->
+
+### Verbos irregulares que practiqué
+
+<!-- Ejemplo:
+| Base | Pasado | Mi oración |
+|------|--------|-----------|
+| go   | went   | I went to the market yesterday. |
+-->
+
+| Base | Pasado | Mi oración |
+|------|--------|-----------|
+|      |        |            |
 
 ---
 
 ## 💬 Notas adicionales
 
-<!-- Dudas, observaciones o retroalimentación del maestro -->
+<!-- Dudas, correcciones del profe, feedback -->

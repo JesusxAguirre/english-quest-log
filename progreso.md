@@ -10,7 +10,8 @@
 
 | # | Fecha | Tema | Tarea entregada |
 |---|-------|------|-----------------|
-| 1 | <!-- fecha --> | Introducción | ☐ |
+| 1 | 2026-01-29 | Past Simple — estructura y verbos | ☐ |
+| 2 | 2026-02-xx | Tenses overview — Present Perfect + auxiliares | ☐ |
 
 ---
 
@@ -27,7 +28,9 @@
 
 ## 🏆 Logros
 
-- [ ] Completar primera clase
+- [x] Completar primera clase
+- [x] Completar segunda clase
+- [ ] Entregar primer homework
 - [ ] Aprender 50 palabras nuevas
 - [ ] Entender una canción en inglés
 - [ ] Tener una conversación básica
@@ -36,4 +39,4 @@
 
 ## 📝 Reflexiones
 
-<!-- Escribe aquí cómo te sientes con tu avance, qué te costó trabajo y qué aprendiste -->
+<!-- Escribe aquí cómo te sentís con tu avance, qué te costó y qué aprendiste -->
