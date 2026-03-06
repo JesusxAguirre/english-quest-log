@@ -26,9 +26,9 @@ We had to go to a nearby forest to play, but we had a great time playing with th
 ---
 
 ### Preguntas que practiqué
-​Past: Where did you go?
-​Present: Do you like traveling?
-​Present Perfect: Have you ever been to Paris?
+- ​Past: Where did you go?
+- Present: Do you like traveling?
+- Present Perfect: Have you ever been to Paris?
 <!-- Escribí al menos 5 preguntas usando Did / Have / Will
 Ejemplo:
 - Did you visit the museum?
