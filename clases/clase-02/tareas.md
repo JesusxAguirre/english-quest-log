@@ -20,8 +20,8 @@
 
 ### Mi viaje — escritura libre en inglés
 
-<!-- Contá un viaje que hiciste. Usá Past Simple.
-Ejemplo: Last year I went to... I ate... I visited... I enjoyed... -->
+I went to La Molina with my family a few months ago. I had never seen snow before; that was my first time. I ate delicious food in a traditional restaurant. We didn't use the cable car to go to the peak of the mountain because there was such a heavy snowfall that they closed it
+We had to go to a nearby forest to play, but we had a great time playing with the snow and making a snowman.
 
 ---
 
