@@ -5,6 +5,9 @@ export default defineConfig({
   title: "English Quest Log",
   description: "English learning journal - Classes, grammar, and vocabulary",
   
+  // Base path - required for GitHub Pages subfolder deployment
+  base: '/english-quest-log/',
+  
   // Clean URLs for better sharing
   cleanUrls: true,
   
