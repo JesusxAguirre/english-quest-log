@@ -13,3 +13,4 @@ Todas las clases organizadas cronológicamente. Cada clase incluye notas y tarea
 |---|------|-------|-------|--------|
 | 01 | Past Simple | B2 | [Ver notas](/clases/clase-01) | [Ver tareas](/clases/clase-01-tareas) |
 | 02 | Tenses Overview + Present Perfect | B2 | [Ver notas](/clases/clase-02) | [Ver tareas](/clases/clase-02-tareas) |
+| 03 | Adjectives -ed and -ing | B1 | [Ver notas](/clases/clase-03) | [Ver tareas](/clases/clase-03-tareas) |
