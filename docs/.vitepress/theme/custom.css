@@ -1,0 +1,37 @@
+/* Custom theme styles for English Quest badges (B1 Log */
+
+/* Level, B2, etc.) */
+.level-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.level-badge.b1 {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.level-badge.b2 {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.level-badge.c1 {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+/* Custom callouts */
+.custom-tip {
+  border-left-color: #42b883;
+}
+
+/* Dark mode adjustments */
+:root {
+  --vp-c-brand: #42b883;
+  --vp-c-brand-light: #34a777;
+  --vp-c-brand-dark: #369c6e;
+}

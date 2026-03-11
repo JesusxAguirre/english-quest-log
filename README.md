@@ -6,6 +6,21 @@ Este repositorio organiza mi aprendizaje de inglés clase a clase — notas, tar
 
 ---
 
+## 🌐 Documentación Online
+
+**¡Nueva!** Visitá la documentación interactiva en:
+
+### 📚 [English Quest Log Docs](https://jadevops.github.io/english-quest-log/)
+
+Incluye:
+- Navegación por clases
+- Gramática y vocabulario
+- Buscador integrado (presiona `Ctrl+K` o `Cmd+K`)
+- Modo oscuro
+- Totalmente responsive
+
+---
+
 ## 📂 Estructura del repositorio
 
 ```
