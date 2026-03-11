@@ -1,11 +1,9 @@
 ---
-title: Clase 01 — Past Simple
+title: "📝 Clase 01 — Past Simple"
 date: 2026-01-29
-description: Aprende el Past Simple en inglés - funciones, estructura y verbos regulares e irregulares
+description: "Past Simple"
 level: B2
-tags: [past-simple, verbs, pronunciation]
 ---
-
 # 📝 Clase 01 — Past Simple
 
 **Fecha:** 2026-01-29

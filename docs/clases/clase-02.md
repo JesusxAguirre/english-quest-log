@@ -1,14 +1,12 @@
 ---
-title: Clase 02 — Tenses Overview + Present Perfect
-date: 2026-02-01
-description: Overview de tiempos verbales y Present Perfect - auxiliares, estructura y uso
+title: "📝 Clase 02 — Tenses Overview + Present Perfect"
+date: 2026-03-11
+description: "Tiempos verbales — auxiliares y Present Perfect"
 level: B2
-tags: [tenses, present-perfect, pronunciation]
 ---
-
 # 📝 Clase 02 — Tenses Overview + Present Perfect
 
-**Fecha:** 2026-02-01
+**Fecha:** 2026-02-xx
 **Tema:** Tiempos verbales — auxiliares y Present Perfect
 **Nivel:** B2
 

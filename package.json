@@ -6,7 +6,9 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "nueva-clase": "node scripts/migrate-clase.js",
+    "migrar-todo": "node scripts/migrate-clase.js --all"
   },
   "devDependencies": {
     "vitepress": "^1.5.0",

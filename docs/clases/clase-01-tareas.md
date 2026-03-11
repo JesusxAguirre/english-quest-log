@@ -1,6 +1,7 @@
 ---
-title: Tareas — Clase 01
-description: Homework de la clase 01 - Past Simple
+title: "✅ Tareas — Clase 01"
+date: 2026-01-29
+description: "Homework clase 01"
 ---
 
 # ✅ Tareas — Clase 01
