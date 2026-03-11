@@ -1,22 +1,27 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath } from 'url'
+import path from 'path'
+import {
+  generateClasesSidebar,
+  generateGramaticaSidebar,
+  generateVocabularioSidebar
+} from './generateSidebar'
 
-// https://vitepress.dev/reference/site-config
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const docsDir = path.resolve(__dirname, '..')
+
 export default defineConfig({
   title: "English Quest Log",
-  description: "English learning journal - Classes, grammar, and vocabulary",
-  
-  // Base path - required for GitHub Pages subfolder deployment
+  description: "My English learning journey — classes, grammar, and vocabulary",
+
+  // Base path for GitHub Pages (repo name subfolder)
   base: '/english-quest-log/',
-  
-  // Clean URLs for better sharing
+
+  // Let VitePress handle clean URLs
   cleanUrls: true,
-  
-  // Theme configuration
+
   themeConfig: {
-    // Site logo
-    logo: '/logo.svg',
-    
-    // Navigation
+    // Top navigation
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Clases', link: '/clases/' },
@@ -24,63 +29,69 @@ export default defineConfig({
       { text: 'Vocabulario', link: '/vocabulario/' }
     ],
 
-    // Sidebar - configured with migrated content
+    // Dynamic sidebars — auto-generated from folder structure
+    // Adding a new clase-NN.md file = automatically appears in sidebar
     sidebar: {
-      '/clases/': [
-        {
-          text: 'Clases',
-          collapsed: false,
-          items: [
-            { text: 'Clase 01 - Past Simple', link: '/clases/clase-01' },
-            { text: 'Clase 02 - Present Perfect', link: '/clases/clase-02' }
-          ]
+      '/clases/': generateClasesSidebar(docsDir),
+      '/gramatica/': generateGramaticaSidebar(docsDir),
+      '/vocabulario/': generateVocabularioSidebar(docsDir)
+    },
+
+    // Built-in local search — no external service needed
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: { buttonText: 'Buscar', buttonAriaLabel: 'Buscar' },
+              modal: {
+                noResultsText: 'Sin resultados para',
+                resetButtonTitle: 'Limpiar búsqueda',
+                footer: {
+                  selectText: 'seleccionar',
+                  navigateText: 'navegar',
+                  closeText: 'cerrar'
+                }
+              }
+            }
+          }
         }
-      ],
-      '/gramatica/': [
-        {
-          text: 'Gramática',
-          collapsed: false,
-          items: [
-            { text: 'Tiempos Verbales', link: '/gramatica/tiempos-verbales' }
-          ]
-        }
-      ],
-      '/vocabulario/': [
-        {
-          text: 'Vocabulario',
-          collapsed: false,
-          items: [
-            { text: 'Vocabulario General', link: '/vocabulario/general' }
-          ]
-        }
-      ]
+      }
     },
 
     // Social links
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/jadevops/english-quest-log' }
+      { icon: 'github', link: 'https://github.com/JesusxAguirre/english-quest-log' }
     ],
-
-    // Search - Local search (built-in, no external service needed)
-    search: {
-      provider: 'local'
-    },
 
     // Footer
     footer: {
-      message: 'English Quest Log - Learning journey',
-      copyright: '© 2026 English Quest Log'
+      message: 'English Quest Log',
+      copyright: '© 2026 — Learning one class at a time 🚀'
     },
 
-    // Outline (right sidebar with table of contents)
+    // Table of contents depth
     outline: {
       level: [2, 3],
-      label: 'On this page'
+      label: 'En esta página'
+    },
+
+    // Last updated timestamp
+    lastUpdated: {
+      text: 'Última actualización',
+    },
+
+    // Edit link — lets you jump to the source file on GitHub
+    editLink: {
+      pattern: 'https://github.com/JesusxAguirre/english-quest-log/edit/main/docs/:path',
+      text: 'Editar esta página en GitHub'
     }
   },
 
-  // Head configuration
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ]
+  // Markdown config
+  markdown: {
+    // Show line numbers in code blocks
+    lineNumbers: true
+  }
 })
